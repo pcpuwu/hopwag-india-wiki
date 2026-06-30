@@ -1,0 +1,177 @@
+site_name: History of Philosophy in India — Companion
+site_description: Read-along notes and transcripts for the HoPWaG India series
+theme:
+  name: material
+  custom_dir: overrides
+  palette:
+    - scheme: slate
+      primary: deep orange
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+    - scheme: default
+      primary: deep orange
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.indexes
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - toc.follow
+plugins:
+  - search
+extra_css:
+  - extra.css
+extra_javascript:
+  - extra.js
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+nav:
+  - Home: index.md
+  - About & Methodology: about.md
+  - Transcription Corrections: corrections.md
+  - Map of Indian Philosophy: india/map.md
+  - Episodes:
+    - Origins:
+      - "Ep 1 — Begin at the End: An Introduction to Philosophy in India": india/hpi-01.md
+      - "Ep 2 — Sages, Schools and Systems: A Historical Overview": india/hpi-02.md
+      - "Ep 3 — Kingdom for a Horse: India in the Vedic Period": india/hpi-03.md
+      - "Ep 4 — Hide and Seek: The Upaniṣads": india/hpi-04.md
+      - "Ep 5 — Indra's Search: The Self in the Upaniṣads": india/hpi-05.md
+      - "Ep 6 — You Are What You Do: Karma": india/hpi-06.md
+      - "Ep 7 — Brian Black on the Upaniṣads": india/hpi-07.md
+      - "Ep 8 — Case Worker: Pāṇini's Grammar": india/hpi-08.md
+      - "Ep 9 — Suffering and Smiling: The Buddha": india/hpi-09.md
+      - "Ep 10 — Crossover Appeal: The Nature of the Buddha's Teaching": india/hpi-10.md
+      - "Ep 11 — Carry a Big Stick: Ancient Indian Political Thought": india/hpi-11.md
+      - "Ep 12 — Rupert Gethin on Buddhism and the Self": india/hpi-12.md
+      - "Ep 13 — Grand Illusion: Dharma and Deception in the Mahābhārata": india/hpi-13.md
+      - "Ep 14 — World on a String: The Bhagavad-Gītā": india/hpi-14.md
+      - "Ep 15 — Mostly Harmless: Non-Violence": india/hpi-15.md
+      - "Ep 16 — Better Half: Women in Ancient India": india/hpi-16.md
+      - "Ep 17 — Jessica Frazier on Hinduism and Philosophy": india/hpi-17.md
+    - Age of the Sūtra:
+      - "Ep 18 — A Tangled Web: The Age of the Sūtra": india/hpi-18.md
+      - "Ep 19 — When in Doubt: The Rise of Skepticism": india/hpi-19.md
+      - "Ep 20 — Master of Ceremonies: Jaimini's Mīmāṃsā-Sūtra": india/hpi-20.md
+      - "Ep 21 — Innocent Until Proven Guilty: Mīmāṃsā on Knowledge and Language": india/hpi-21.md
+      - "Ep 22 — Elisa Freschi on Mīmāṃsā": india/hpi-22.md
+      - "Ep 23 — Source Code: Bādarāyaṇa's Vedānta-Sūtra": india/hpi-23.md
+      - "Ep 24 — No Two Ways About It: Śaṅkara and Advaita Vedānta": india/hpi-24.md
+      - "Ep 25 — Communication Breakdown: Bhartṛhari on Language": india/hpi-25.md
+      - "Ep 26 — Francis Clooney on Vedānta": india/hpi-26.md
+      - "Ep 27 — The Theory of Evolution: Īśvarakṛṣṇa's Sāṃkhya-kārikā": india/hpi-27.md
+      - "Ep 28 — Who Wants to Live Forever: Early Āyurvedic Medicine": india/hpi-28.md
+      - "Ep 29 — Practice Makes Perfect: Patañjali's Yoga-Sūtra": india/hpi-29.md
+      - "Ep 30 — Philipp Maas on Yoga": india/hpi-30.md
+      - "Ep 31 — Where There's Smoke There's Fire: Gautama's Nyāya-Sūtra": india/hpi-31.md
+      - "Ep 32 — What You See Is What You Get: Nyāya on Perception": india/hpi-32.md
+      - "Ep 33 — Standard Deductions: Nyāya on Reasoning": india/hpi-33.md
+      - "Ep 34 — The Truth Shall Set You Free: Nyāya on the Mind": india/hpi-34.md
+      - "Ep 35 — Ujjwala Jha and V.N. Jha on Nyāya": india/hpi-35.md
+      - "Ep 36 — Fine Grained Analysis: Kaṇāda's Vaiśeṣika-Sūtra": india/hpi-36.md
+      - "Ep 37 — The Whole Story: Vaiśeṣika on Complexity and Causation": india/hpi-37.md
+      - "Ep 38 — A Day in the Life: Theories of Time": india/hpi-38.md
+      - "Ep 39 — The Wolf's Footprint: Indian Naturalism": india/hpi-39.md
+      - "Ep 40 — Mind out of Matter: Materialist Theories of the Self": india/hpi-40.md
+      - "Ep 41 — Monima Chadha on Indian Philosophy of Mind": india/hpi-41.md
+      - "Ep 42 — In Good Taste: The Aesthetics of Rasa": india/hpi-42.md
+    - Buddhists & Jains:
+      - "Ep 43 — We Beg to Differ: The Buddhists and Jains": india/hpi-43.md
+      - "Ep 44 — It All Depends: Nāgārjuna on Emptiness": india/hpi-44.md
+      - "Ep 45 — Motion Denied: Nāgārjuna on Change": india/hpi-45.md
+      - "Ep 46 — No Four Ways About It: Nāgārjuna's Tetralemma": india/hpi-46.md
+      - "Ep 47 — Jan Westerhoff on Nāgārjuna": india/hpi-47.md
+      - "Ep 48 — Taking Perspective: The Jain Theory of Standpoints": india/hpi-48.md
+      - "Ep 49 — Well Qualified: The Jains on Truth": india/hpi-49.md
+      - "Ep 50 — Marie-Hélène Gorisse on Jain Epistemology": india/hpi-50.md
+      - "Ep 51 — Change of Mind: Vasubandhu and Yogācāra Buddhism": india/hpi-51.md
+      - "Ep 52 — Under Construction: Dignāga on Perception and Language": india/hpi-52.md
+      - "Ep 53 — Follow the Evidence: Dignāga's Logic": india/hpi-53.md
+      - "Ep 54 — Graham Priest on Logic and Buddhism": india/hpi-54.md
+      - "Ep 55 — Doors of Perception: Dignāga on Consciousness": india/hpi-55.md
+      - "Ep 56 — Who's Pulling Your Strings: Buddhaghosa": india/hpi-56.md
+      - "Ep 57 — Learn by Doing: Tantra": india/hpi-57.md
+      - "Ep 58 — Amber Carpenter on Animals in Indian Philosophy": india/hpi-58.md
+      - "Ep 59 — Looking East: Indian Influence on Greek Thought": india/hpi-59.md
+      - "Ep 60 — The Buddha and I: Indian Influence on Islamic and European Thought": india/hpi-60.md
+      - "Ep 61 — What Happened Next: Indian Philosophy After Dignāga": india/hpi-61.md
+      - "Ep 62 — Kit Patrick on Philosophy and Indian History": india/hpi-62.md
+    - Transcripts:
+        - "Ep 1": india/transcripts/hpi-01.md
+        - "Ep 2": india/transcripts/hpi-02.md
+        - "Ep 3": india/transcripts/hpi-03.md
+        - "Ep 4": india/transcripts/hpi-04.md
+        - "Ep 5": india/transcripts/hpi-05.md
+        - "Ep 6": india/transcripts/hpi-06.md
+        - "Ep 7": india/transcripts/hpi-07.md
+        - "Ep 8": india/transcripts/hpi-08.md
+        - "Ep 9": india/transcripts/hpi-09.md
+        - "Ep 10": india/transcripts/hpi-10.md
+        - "Ep 11": india/transcripts/hpi-11.md
+        - "Ep 12": india/transcripts/hpi-12.md
+        - "Ep 13": india/transcripts/hpi-13.md
+        - "Ep 14": india/transcripts/hpi-14.md
+        - "Ep 15": india/transcripts/hpi-15.md
+        - "Ep 16": india/transcripts/hpi-16.md
+        - "Ep 17": india/transcripts/hpi-17.md
+        - "Ep 18": india/transcripts/hpi-18.md
+        - "Ep 19": india/transcripts/hpi-19.md
+        - "Ep 20": india/transcripts/hpi-20.md
+        - "Ep 21": india/transcripts/hpi-21.md
+        - "Ep 22": india/transcripts/hpi-22.md
+        - "Ep 23": india/transcripts/hpi-23.md
+        - "Ep 24": india/transcripts/hpi-24.md
+        - "Ep 25": india/transcripts/hpi-25.md
+        - "Ep 26": india/transcripts/hpi-26.md
+        - "Ep 27": india/transcripts/hpi-27.md
+        - "Ep 28": india/transcripts/hpi-28.md
+        - "Ep 29": india/transcripts/hpi-29.md
+        - "Ep 30": india/transcripts/hpi-30.md
+        - "Ep 31": india/transcripts/hpi-31.md
+        - "Ep 32": india/transcripts/hpi-32.md
+        - "Ep 33": india/transcripts/hpi-33.md
+        - "Ep 34": india/transcripts/hpi-34.md
+        - "Ep 35": india/transcripts/hpi-35.md
+        - "Ep 36": india/transcripts/hpi-36.md
+        - "Ep 37": india/transcripts/hpi-37.md
+        - "Ep 38": india/transcripts/hpi-38.md
+        - "Ep 39": india/transcripts/hpi-39.md
+        - "Ep 40": india/transcripts/hpi-40.md
+        - "Ep 41": india/transcripts/hpi-41.md
+        - "Ep 42": india/transcripts/hpi-42.md
+        - "Ep 43": india/transcripts/hpi-43.md
+        - "Ep 44": india/transcripts/hpi-44.md
+        - "Ep 45": india/transcripts/hpi-45.md
+        - "Ep 46": india/transcripts/hpi-46.md
+        - "Ep 47": india/transcripts/hpi-47.md
+        - "Ep 48": india/transcripts/hpi-48.md
+        - "Ep 49": india/transcripts/hpi-49.md
+        - "Ep 50": india/transcripts/hpi-50.md
+        - "Ep 51": india/transcripts/hpi-51.md
+        - "Ep 52": india/transcripts/hpi-52.md
+        - "Ep 53": india/transcripts/hpi-53.md
+        - "Ep 54": india/transcripts/hpi-54.md
+        - "Ep 55": india/transcripts/hpi-55.md
+        - "Ep 56": india/transcripts/hpi-56.md
+        - "Ep 57": india/transcripts/hpi-57.md
+        - "Ep 58": india/transcripts/hpi-58.md
+        - "Ep 59": india/transcripts/hpi-59.md
+        - "Ep 60": india/transcripts/hpi-60.md
+        - "Ep 61": india/transcripts/hpi-61.md
+        - "Ep 62": india/transcripts/hpi-62.md

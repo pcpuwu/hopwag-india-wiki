@@ -1,0 +1,12 @@
+.ep-nav { display: flex; justify-content: space-between; gap: 1rem;
+          align-items: center; margin: 1rem 0; }
+.ep-nav .md-button { margin: 0; }
+.ep-list { display: flex; flex-direction: column; gap: .25rem; margin: .5rem 0 1.5rem; }
+.ep-item { padding: .35rem .6rem; border-radius: .3rem; text-decoration: none;
+           border: 1px solid var(--md-default-fg-color--lightest); }
+.ep-item:hover { background: var(--md-default-fg-color--lightest); }
+#host-filter { display: flex; flex-wrap: wrap; gap: .4rem; margin: .5rem 0 1rem; }
+.host-btn { cursor: pointer; padding: .25rem .7rem; border-radius: 1rem;
+            border: 1px solid var(--md-primary-fg-color); background: transparent;
+            color: var(--md-primary-fg-color); font-size: .8rem; }
+.host-btn.active { background: var(--md-primary-fg-color); color: var(--md-primary-bg-color); }
