@@ -220,6 +220,7 @@ def write_index(chap_eps, have_map):
         + ("\n- See the **[Map of Indian Philosophy](india/map.md)** for the "
            "chronological spine across all episodes.\n" if have_map else "\n"),
         "## Episodes\n",
+        '<p class="filter-label">Filter by host or guest</p>\n',
         '<div id="host-filter"></div>\n',
     ]
     for name, _ in CHAPTERS:
@@ -303,7 +304,9 @@ def write_assets():
         ".ep-item { padding: .35rem .6rem; border-radius: .3rem; text-decoration: none;\n"
         "           border: 1px solid var(--md-default-fg-color--lightest); }\n"
         ".ep-item:hover { background: var(--md-default-fg-color--lightest); }\n"
-        "#host-filter { display: flex; flex-wrap: wrap; gap: .4rem; margin: .5rem 0 1rem; }\n"
+        ".filter-label { font-weight: 700; font-size: .72rem; text-transform: uppercase;\n"
+        "                letter-spacing: .07em; opacity: .6; margin: 1.2rem 0 .4rem; }\n"
+        "#host-filter { display: flex; flex-wrap: wrap; gap: .4rem; margin: .2rem 0 1rem; }\n"
         ".host-btn { cursor: pointer; padding: .25rem .7rem; border-radius: 1rem;\n"
         "            border: 1px solid var(--md-primary-fg-color); background: transparent;\n"
         "            color: var(--md-primary-fg-color); font-size: .8rem; }\n"

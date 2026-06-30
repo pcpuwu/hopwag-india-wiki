@@ -13,6 +13,8 @@ Each episode has narration-order notes with `[hh:mm:ss]` jump points, the argume
 
 ## Episodes
 
+<p class="filter-label">Filter by host or guest</p>
+
 <div id="host-filter"></div>
 
 ### Origins
