@@ -5,7 +5,9 @@
 .ep-item { padding: .35rem .6rem; border-radius: .3rem; text-decoration: none;
            border: 1px solid var(--md-default-fg-color--lightest); }
 .ep-item:hover { background: var(--md-default-fg-color--lightest); }
-#host-filter { display: flex; flex-wrap: wrap; gap: .4rem; margin: .5rem 0 1rem; }
+.filter-label { font-weight: 700; font-size: .72rem; text-transform: uppercase;
+                letter-spacing: .07em; opacity: .6; margin: 1.2rem 0 .4rem; }
+#host-filter { display: flex; flex-wrap: wrap; gap: .4rem; margin: .2rem 0 1rem; }
 .host-btn { cursor: pointer; padding: .25rem .7rem; border-radius: 1rem;
             border: 1px solid var(--md-primary-fg-color); background: transparent;
             color: var(--md-primary-fg-color); font-size: .8rem; }
